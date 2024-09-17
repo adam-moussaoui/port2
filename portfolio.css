@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'UnifrakturCook', cursive;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color:rgba(100, 166, 237, 0.744);
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.4s ease;
+}
+.navigation a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color:rgba(27, 0, 94, 0.849);
+    text-decoration: none;
+    padding-left: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.4s ease;
+    
+    
+}
+.navigation a:hover{
+    color: rgb(0, 0, 0)
+    
+}
+.logo:hover{
+     color: rgb(0, 0, 0);
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    color: rgb(247, 240, 240);
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('Sashkin_AdobeStock_332094489_Python.jpg');
+    background-size: 100%;
+    background-position: cover;
+    background-attachment: fixed;
+    
+}
+
+    
+
+.main h2{
+
+    font-family: 'Courier New', Courier, monospace; ;
+}
+#span1{
+    font-family: 'Courier New', Courier, monospace;;
+}
+.main h3{
+    font-family: 'Courier New', Courier, monospace; ;
+    font-weight: 1000;
+}
+.social-icons a{
+    margin: 0 10px;
+    color: rgb(14, 236, 252) ;
+}
+.main-btn{
+    color: #f0f0f0;
+    background-color: rgba(98, 133, 221, 0.744);
+    text-decoration: none;
+    font-size: 0.6em;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    transition: 0.6s ease;
+}
+.main-btn:hover{
+    background-color: rgb(44, 0, 201) ;
+    transform: scale(1.05);
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color:rgba(0, 25, 99, 0.37);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-family: fantasy;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap; 
+      
+}
+.card{
+    background-color: #f0f0f0;
+    width: 15.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /25%);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    background-image: url(ICON-KANYE.WEBP);
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+.icon{
+    font-size: 4em;
+    text-align: center ;
+    
+}
+.info h3{ text-align: center;}
+.info h3{
+    font-size: 1.2em;
+    font-family: fantasy;
+    font-weight: 700;
+    margin: 10px;
+}
+.projects{
+    background-color: rgb(104, 163, 241)
+    
+}
+.projects .content{
+    margin-top: 30px;
+    
+
+}
+
+.project-card {
+    background-color: #f0f0f0 ;
+    border: 2px solid rgb(79, 70, 70);
+    min-height: auto;
+    width: 15em;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+    box-shadow: 0 5px 25px rgba(1 1 1 /25%);
+}
+.project-card:hover {
+    transform: scale(1.1);
+}
+.project-card:hover .project-image {
+    opacity: 0.9;
+}
+.project-image img{
+    width: 100%;
+    
+}
+.project-info{
+    padding: 1em;
+}
+.project-category{
+    font-weight: 600;
+    font-size: larger;
+    text-transform: capitalize;
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    font-size: small;
+}
+.project-title span{
+    color: grey;
+}
+.view-album{
+    text-decoration: none;
+
+}
+.footer {
+    background-color: #ffffff;
+    padding: 2em;
+    font-family: 'blackchancery';
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.footer-title{
+    font-family: 'blackchancery';
+    color: rgb(186, 167, 145);
+    font-weight: 800;
+    font-size: 1.3em;
+
+}
+.footer .social-icons {
+    font-size: 2em;
+    margin-top: -10px;
+    padding-right: 10px;
+}
+
+@media (max-width:1023px){
+ header{
+    padding: 12px 18px;
+
+     }
+ .navigation a{ padding: 14px ;}
+ .title {
+    font-size: 1.8em;}
+    section{ padding: 0px 20px;}
+  
+ .main-btn{
+    font-size: 1em;
+ }
+.main h2{font-size: 1em;} 
+.content{flex-direction: column;
+align-items: center;}}
